@@ -107,9 +107,6 @@ var strAdd=function(str,add){
 	return res;
 }
 var isWap = function(){
-	if(navigator.userAgent.match(/(iPhone|iPod|Android|ios|MiuiBrowser)/i)){
-		return true;
-	}
 	return false;
 }
 
