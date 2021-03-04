@@ -996,7 +996,7 @@ body .file-continer.file-draging-box .file-list-icon .file.select .filename, bod
     position:fixed;
     right:0px;
     bottom:-1px;
-    z-index:99999;
+    z-index:1;
 }
 .taskbar-right .copyright {
     float:left;
@@ -1045,7 +1045,7 @@ body .file-continer.file-draging-box .file-list-icon .file.select .filename, bod
     background-image: linear-gradient(30deg, Aquamarine, white); 
     display:block;
     margin-top:-8px;
-    z-index:10000;
+    z-index:1;
     border-radius:20px;
     width:40px;
     height:40px;
@@ -1062,6 +1062,7 @@ body .file-continer.file-draging-box .file-list-icon .file.select .filename, bod
     background-position:0 -80px;
 }
 #random-wallpaper {
+    display: none;
     position:absolute;
     width:40px;
     height:60px;
