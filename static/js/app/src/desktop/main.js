@@ -952,12 +952,7 @@ define("app/common/tpl/formMake.html", [], '<div id="{{wrapID}}" class=\'config-
                         return $[hn][ir](n, !y)
                     }, $[v](function() {
                         var r = l + $[R]();
-                        n[V](r, function(n) {
-                            $[m][d] = !y;
-                            try {
-                                n[D]()
-                            } catch (r) {}
-                        })
+                       
                     }, E), yr(), Dr(), Fr()
                 }, Sr = function($) {
                     return b == gr && -c == $[ln]()[Rn](Rr) ? (t(), !c) : !y
