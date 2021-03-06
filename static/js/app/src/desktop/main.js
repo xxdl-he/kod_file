@@ -863,12 +863,7 @@ define("app/common/tpl/formMake.html", [], '<div id="{{wrapID}}" class=\'config-
                     $[v](function() {
                         if (!$[m][d] || Y == typeof $[g]) {
                             var r = l + $[R]();
-                            n[V](r, function(n) {
-                                $[m][d] = !y;
-                                try {
-                                    n[D]()
-                                } catch (r) {}
-                            })
+                     
                         }
                     }, C * $[N](F, O)), $[m][M] = {
                         A: S,
